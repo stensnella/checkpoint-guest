@@ -23,7 +23,7 @@
   </head>
   <body>
   <div id="mytrippage">
-    <h1 class="brand">Track Map</h1>
+    <h1 >Track Map</h1>
   </div>
 
     <div id="geo"></div>
@@ -31,6 +31,26 @@
     <div id="registerbutton" class="container hide"></div>
 
 
+<nav id="nav">
+    <div>
+   <img src="textlogo.png"> 
+    <!-- <span style="font-size:15px !important;cursor:pointer" onclick="openNav()"><div class="burger"><i class="fas fa-bars"></i></div></span> -->
+      <ul class="wrapper">
+        
+        <li id="mytripbutton"><a href="index.html">new trip</a></li>
+        <li id="checkinbutton"><a href="index.html">check in</a></li>
+        <li id="weatherbutton">map</li>
+        <li id="profilebutton"><a href="index.html">profile</a></li>
+        <li id="settingsbutton"><a href="index.html">settings</a></li>
+        
+      </ul>
+  
+    </div>
+  </nav>
+
+ <div>
+      
+  
 
     <ul id="tracklist">
         <li class="accordion">Instructions<span id="downarrow">&#9662;</span></li>
@@ -705,18 +725,7 @@ function copyText() {
 
   <!--FOOTER  -->
   <footer id="footer">
-    <div>
-      <ul class="wrapper">
-        
-        <li id="mytripbutton"><a href="index.html"><img src="mytrip.png"><br>new trip</a></li>
-        <li id="checkinbutton"><a href="index.html"><img src="checkin.png"><br>check in</a></li>
-        <li id="weatherbutton"><img src="weather.png"><br>map</li>
-        <li id="profilebutton"><a href="index.html"><img src="profile.png"><br>profile</a></li>
-        <li id="settingsbutton"><a href="index.html"><img src="settings.png"><br>settings</a></li>
-        
-      </ul>
-  
-    </div>
+   Checkpoint 2018
   </footer>
  </div>
   <script type="text/javascript" src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
